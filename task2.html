@@ -1,30 +1,61 @@
-<div class="container">
-<div class="background">
-  <h1>Parallax Effect</h1>
-  <div class="layer layer-1"></div>
-  <div class="layer layer-2"></div>
-  <div class="layer layer-3"></div>
-</div>
-<div class="content">
-  <div class="text">
-          <p>In hac habitasse platea dictumst. Vivamus nec est et augue blandit aliquam quis non magna. Nunc velit nisi, porta ac libero in, porttitor placerat purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc ut posuere quam. Aenean in leo mattis, convallis dolor vel, tempor lectus.</p>
-          <p>Elit nulla vulputate ex, sed porta est risus ac lorem. Duis sed blandit felis. In hac habitasse platea dictumst. Vivamus nec est et augue blandit aliquam quis non magna. Nunc velit nisi, porta ac libero in, porttitor placerat purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc ut posuere quam. Aenean in leo mattis, convallis dolor vel, tempor lectus.</p>
-          <p>Duis sed blandit felis. Integer dictum, mi eget tristique semper, elit nulla vulputate ex, sed porta est risus ac lorem. In hac habitasse platea dictumst. Vivamus nec est et augue blandit aliquam quis non magna. Vestibulum ante ipsum primis.</p>
-      <p>Integer dictum, mi eget tristique semper, elit nulla vulputate ex, sed porta est risus ac lorem. Duis sed blandit felis. In hac habitasse platea dictumst. Vivamus nec est et augue blandit aliquam quis non magna. Nunc velit nisi, porta ac libero in, porttitor placerat purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc ut posuere quam. Aenean in leo mattis, convallis dolor vel, tempor lectus.</p>
-</div>
-    <img class="rock-1 rocks" src="https://i.imgur.com/yIbmDYw.png" alt="rock"/>
-    <img class="rock-2 rocks" src="https://i.imgur.com/MZutMpv.png" alt="rock"/>
-    <img class="rock-3 rocks" src="https://i.imgur.com/AZumOFI.png" alt="rock"/>
-     <img class="rock-4 rocks" src="https://i.imgur.com/yIbmDYw.png" alt="rock"/>
-     <img class="rock-5 rocks" src="https://i.imgur.com/MZutMpv.png" alt="rock"/>
-     <img class="rock-6 rocks" src="https://i.imgur.com/MZutMpv.png" alt="rock"/>
-     <img class="rock-7 rocks" src="https://i.imgur.com/AZumOFI.png" alt="rock"/>
-      <img class="rock-8 rocks" src="https://i.imgur.com/yIbmDYw.png" alt="rock"/>
-      <img class="rock-9 rocks" src="https://i.imgur.com/yIbmDYw.png" alt="rock"/>
-    <div class="rock"></div>
- </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enchanted Forest - Parallax Experience</title>
+    <link rel="stylesheet" href="task2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Quicksand:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="scene">
+      <div class="layer sky" data-speed="0.02"></div>
 
-</div>
+      <div class="layer moon" data-speed="0.04"></div>
 
+      <div class="layer tree tree-far-1" data-speed="0.06"></div>
+      <div class="layer tree tree-far-2" data-speed="0.07"></div>
+      <div class="layer tree tree-far-3" data-speed="0.08"></div>
+      <div class="layer tree tree-far-4" data-speed="0.065"></div>
+      <div class="layer tree tree-far-5" data-speed="0.075"></div>
 
+      <div class="layer tree tree-mid-1" data-speed="0.14"></div>
+      <div class="layer tree tree-mid-2" data-speed="0.16"></div>
+      <div class="layer tree tree-mid-3" data-speed="0.15"></div>
+      <div class="layer tree tree-mid-4" data-speed="0.17"></div>
+      <div class="layer tree tree-mid-5" data-speed="0.13"></div>
 
+      <div class="layer tree tree-close-1" data-speed="0.28"></div>
+      <div class="layer tree tree-close-2" data-speed="0.32"></div>
+      <div class="layer tree tree-close-3" data-speed="0.30"></div>
+      <div class="layer tree tree-close-4" data-speed="0.35"></div>
+      <div class="layer tree tree-close-5" data-speed="0.29"></div>
+      <div class="layer tree tree-close-6" data-speed="0.33"></div>
+      <div class="layer tree tree-close-7" data-speed="0.31"></div>
+
+      <div class="layer branch branch-2" data-speed="0.48"></div>
+
+      <div class="fireflies">
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+      </div>
+
+      <div class="content-overlay">
+        <h1>Enchanted Forest</h1>
+      </div>
+
+      <div class="vignette"></div>
+    </div>
+
+    <script src="task2.js"></script>
+  </body>
+</html>
